@@ -90,18 +90,19 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>	
-	</dependencies>	
+	</dependencies>
+	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</tesla-releases/
-	      <name><
-	      <url>http:///</url>
-	    </repository>http://192.168.28.3:8081/repository/tesla-releases/
-	    
-	    <snapshotRepository>repository/tesla-snapshot
 	      <id>nexus</id>
-	      <name> Snapshot Nexus Repository </name>
-	      <url>http:///://192.168.28.3:8081/repository/tesla-snapshots/
+              <name>DevOps Xpress Nexus Repository</name>
+	      <url>http://192.168.28.3:8081/repository/tesla-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>DevOps Xpress Snapshot Nexus Repository </name>
+	      <url>http://192.168.28.3:8081/repository/tesla-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
