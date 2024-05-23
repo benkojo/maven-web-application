@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.0.3</version> 
+	<version>0.0.0.0</version> 
 	
 	<name>maven-web-application</name>
 
@@ -90,13 +90,13 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>	
-	</dependencies>
-	
+	</dependencies>	
+
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-              <name>DevOps Xpress Nexus Repository</name>
-	      <url>http://192.168.28.3:8081/repository/Tesla-releases/</url>
+	      <name>DevOps Xpress Nexus Repository</name>
+	      <url>http://192.168.28.3:8081/repository/tesla-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>tesla-web-app</finalName>
 		
 		<plugins>
 			<plugin>
